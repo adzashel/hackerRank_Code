@@ -4,6 +4,7 @@ public class TimeConvert {
 
         String convertFormat = convertTime(time);
         System.out.println(convertFormat);
+
     }
 
     private static String convertTime(String time) {
