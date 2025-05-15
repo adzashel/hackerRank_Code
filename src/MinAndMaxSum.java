@@ -7,7 +7,7 @@ public class MinAndMaxSum {
         long min = 0;
         long max = 0;
         for (int j = 0; j < arr.length - 1; j++) {
-            min += j;
+            min += arr[j];
         }
 
         for(int j = 1; j < arr.length; j++) {
