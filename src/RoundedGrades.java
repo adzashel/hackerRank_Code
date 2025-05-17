@@ -20,7 +20,7 @@ public class RoundedGrades {
         for (int i = 0; i < grade.size(); i++) {
             int item = grade.get(i);
 
-            if (item < 38) {
+            if (item < 38) { // not rounded
                 continue;
             }
 
