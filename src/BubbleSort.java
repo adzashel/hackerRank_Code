@@ -1,8 +1,7 @@
-
-
 class GFG {
-
-    // An optimized version of Bubble Sort
+    /**
+     * An optimized version of Bubble Sort
+     */
     static void bubbleSort(int[] arr, int n){
         int i, j, temp;
         boolean swapped;
