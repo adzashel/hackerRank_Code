@@ -6,7 +6,6 @@ public class DesignPDFViewer {
         System.out.println(FindArea(h , word));
     }
 
-
     public static int FindArea(int[] alpha , String word) {
         int heighest = 0;
 
